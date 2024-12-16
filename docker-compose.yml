@@ -112,7 +112,7 @@ services:
     environment:
       PGDATA: /var/lib/postgresql/data/guacamole
       POSTGRES_DB: guacamole_db
-      POSTGRES_PASSWORD: 'ChooseYourOwnPasswordHere1234'
+      POSTGRES_PASSWORD: 'ThoughtThisWouldBeFun'
       POSTGRES_USER: guacamole_user
     image: postgres:15.2-alpine
     networks:
